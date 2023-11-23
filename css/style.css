@@ -1,0 +1,114 @@
+
+.carousel-item .img{height: 100vh;}
+.aside-icon{background-color: transparent;
+font-size: 25px;}
+.background1{
+    height: 50vh;
+    background-image: url(../images/background1.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.background2{
+    height: 50vh;
+    background-image: url(../images/background2.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.thanks{
+    transition: .2s;}
+.thanks:hover{ 
+    transform: scale(.9 , .9);}
+.imgro2{
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 20% 100%);
+}
+.imgro1{
+    clip-path: polygon(0 0, 100% 0, 80% 100%, 0 100%);
+}
+
+.underline{
+    height: 4px;
+    width: 100px;
+    margin-top: -10px;
+    transition: .3s;
+}
+/* .games{transition: .5s;}
+
+.games:hover {
+        background: -webkit-linear-gradient(rgb(194, 175, 6), rgb(199, 15, 116));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        text-shadow: 0px 0px 30px rgb(238, 255, 4);
+      } */
+.navbar a:not(.btn) { 
+    transition: .3s;
+}
+.navbar a:not(.btn):hover{
+    background: -webkit-linear-gradient(rgb(255, 251, 0), rgb(20, 209, 200));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 1px 1px 5px rgb(255, 255, 255);
+}
+#carouselExampleCaptions{ margin-top: 65px;}
+#carouselExampleCaptions img{
+    filter: grayscale();
+    transition: 1s;
+}
+#carouselExampleCaptions .carousel-item:hover img{
+    filter: none;
+}
+.sale img{
+    filter:grayscale();
+    transition: .3s;
+}
+.sale .mt-4:hover img{
+    transform: scale(1.03,1.03);
+    filter:none
+}
+.icons .fab{transition: .5s;}
+.icons .fab:hover{transform: scale(1.2,1.2);
+
+}
+.latest img{
+    filter: blur(10px);
+    transition: .3s;
+}
+.card:hover img{
+    filter: none;
+}
+.card:hover .underline{
+    width: 150px;
+}
+.thanks:hover .card-img{
+    filter: blur(10px);
+}
+.scal{
+    transition: .5s;
+}
+.scal:hover{
+    transform: scale(1.4,1.7);
+}
+.card-hover{
+    transition: .5s;
+}
+
+.carousel-inner .opa{
+    opacity: .9;
+}
+.h2h{
+    text-shadow: 1px 1px 3px rgb(25, 0, 255);
+}
+
+/* dfsdfd */
+@media screen and (max-width: 1000px) {
+
+    .imgro2{
+        clip-path: none;
+       width: 100%;
+    }
+    .imgro1{
+        clip-path: none;
+        width: 100%;
+    }
+  }
